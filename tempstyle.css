@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position:absolute;
+  background-color: #abd1ee;
+  color: #040404;
+  font-size: 1rem;
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.images{
+  display:flex;
+  justify-content: center;
+  width:100%; 
+  object-fit: cover;
+ 
+}
+
+.images img{
+    display:flex;
+    width:2200px;
+    height:800px;
+  margin-right:10px;
+  padding:10px 40px;
+}
+
+.container{
+    position:absolute;
+    top:25%;
+    height: 300px;
+    width: 400px;
+    right:55%;
+}
+
+.title {
+  color: #222;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.temperature-converter {
+
+  border-radius: 5px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 25px 20px;
+  min-width: 320px;
+  height: auto;
+  display:flex;
+  width:100%; 
+ 
+}
+.temperature-converter img{
+  display:flex;
+    width:450px;
+    height:350px;
+  margin-right:10px;
+  padding:10px 40px; 
+}
+
+.result {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.result-heading {
+  color: #0b0b0b;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.celsius-value {
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+label {
+  color: #000;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+  align-content: center;
+}
+
+input:focus {
+  border: 1px solid #4c49f3;
+}
+
+.degree-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-family: cursive;
+}
+
+.degree-field {
+  display: flex;
+  width: 46%;
+}
+
+option {
+  background-color: #033b42;
+  color: #031116;
+}
+
+#convert-btn {
+  background: linear-gradient(to bottom, #41409b, #2554a1);
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 14px 160px;
+  transition: all 0.3s ease-in;
+  font-family: cursive; 
+}
+
+#convert-btn:hover {
+  background: linear-gradient(#9290f1, #4281bf); 
+}
+.temp-field{
+  font-family: cursive;
+}
